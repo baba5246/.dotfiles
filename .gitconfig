@@ -1,0 +1,25 @@
+[color]
+        ui = auto
+[alias]
+        st = status
+        co = checkout
+        cob = checkout -b
+        br = branch
+        bra = branch -a
+        del = branch -D
+        com = commit
+        comm = commit -m
+        comam = commit -am
+        def = deff
+        rename = branch -m
+        graph = log --graph
+[user]
+        name = baba5246
+        email = baba_writer@yahoo.co.jp
+[core]
+	excludesfile = /Users/a13553/.gitignore
+        quotepath = false
+        editor = vim -c \"set fenc=utf-8\"
+[credential]
+        helper = osxkeychain
+
